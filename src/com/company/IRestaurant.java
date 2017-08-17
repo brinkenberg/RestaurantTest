@@ -1,6 +1,6 @@
 package com.company;
 
 public interface IRestaurant {
-    public IRestaurant name();
-
+    public IRestaurant name(String name);
+    public IMenu show();
 }
